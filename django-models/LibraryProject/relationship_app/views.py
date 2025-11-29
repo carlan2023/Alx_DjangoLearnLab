@@ -106,3 +106,4 @@ def member_view(request):
     View accessible only to users with the 'Member' role.
     """
     return render(request, 'relationship_app/member_view.html')
+
